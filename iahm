@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EverytoyAnsCloth</title> <!-- Updated Title -->
+    <style>
+        /* Basic Reset */
+        body, h1, p, a {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Set background color and font family */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff; /* Light blue background */
+            color: #333;
+        }
+
+        /* Header and Navigation Styles */
+        header {
+            background-color: #0056b3; /* Dark Blue */
+            color: white;
+            padding: 20px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav a {
+            margin: 0 20px;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            padding: 10px 20px;
+            background-color: #007bff;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #0056b3;
+        }
+
+        /* Home Section */
+        .home {
+            background-color: #1e90ff; /* Bright Blue */
+            color: white;
+            padding: 100px 20px; /* Increased padding for larger section */
+            text-align: center;
+        }
+
+        .home h2 {
+            font-size: 3.5em;
+        }
+
+        .home p {
+            font-size: 1.3em;
+            margin-top: 15px;
+        }
+
+        /* More Links in Home Section */
+        .home-links {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .home-links a {
+            color: white;
+            font-size: 1.2em;
+            padding: 12px 30px;
+            margin: 15px;
+            background-color: #004085;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .home-links a:hover {
+            background-color: #003366;
+        }
+
+        /* Product Categories Section */
+        .product-categories {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .category {
+            background-color: white;
+            color: #0056b3;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            text-align: center;
+        }
+
+        .category h3 {
+            font-size: 1.7em;
+            margin-bottom: 15px;
+        }
+
+        .category p {
+            font-size: 1.2em;
+            color: #333;
+        }
+
+        /* About Section */
+        .about {
+            background-color: #ffffff;
+            padding: 70px 20px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .about h2 {
+            font-size: 2.5em;
+            color: #0056b3;
+        }
+
+        .about p {
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #0056b3;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Style for the brand links */
+        .brand-link {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1em;
+            margin-top: 20px;
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff6347;
+            border-radius: 5px;
+        }
+
+        .brand-link:hover {
+            background-color: #ff4500;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>EverytoyAnsCloth</h1> <!-- Updated Header Name -->
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <h2>Your One-Stop Shop for Everything</h2>
+        <p>Shop the latest products, best deals, and customer favorites here at EverytoyAnsCloth.</p>
+        <p>For inquiries, feel free to contact me: <a href="mailto:ishamaziz365@gmail.com" style="color: white;">ishamaziz365@gmail.com</a></p>
+        <p>Connect with me on Messenger: <strong>Isham Aziz</strong></p>
+
+        <!-- More Links in Home Section -->
+        <div class="home-links">
+            <a href="https://www.amazon.com" target="_blank">Visit Our Brand Store</a>
+            <a href="https://www.amazon.com/clothing" target="_blank">Shop Clothing</a>
+            <a href="https://www.amazon.com/toys" target="_blank">Shop Toys</a>
+            <a href="https://www.amazon.com/electronics" target="_blank">Shop Electronics</a>
+        </div>
+
+        <!-- Product Categories Section -->
+        <div class="product-categories">
+            <div class="category">
+                <h3>Clothes</h3>
+                <p>Browse a variety of stylish clothing for all ages and occasions.</p>
+                <a href="https://www.amazon.com/clothing" class="brand-link" target="_blank">Shop Clothes</a>
+            </div>
+            <div class="category">
+                <h3>Toys</h3>
+                <p>Explore our fun and exciting toys for children of all ages.</p>
+                <a href="https://www.amazon.com/toys" class="brand-link" target="_blank">Shop Toys</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About EverytoyAnsCloth</h2>
+        <p>Welcome to EverytoyAnsCloth! This is an online store where you can find a variety of products ranging from clothing to toys. Our goal is to bring great deals, excellent customer service, and an easy shopping experience to our customers.</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 EverytoyAnsCloth. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
